@@ -1,0 +1,12 @@
+#modal{
+
+}
+
+#cerrarModal {
+  width: 10px;
+  position: absolute;
+  left: 97%;
+  bottom: 50px;
+  cursor: pointer;
+  color: red;
+}

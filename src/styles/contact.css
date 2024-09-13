@@ -1,0 +1,69 @@
+body {
+    background-color: #f0f4f8; /* Un color de fondo más claro y suave */
+  }
+  
+  .contacto h2 {
+    font-size: 48px;
+    font-family: "Righteous";
+    text-align: center;
+    color: #333; /* Un color oscuro para buen contraste con el fondo claro */
+  }
+  
+  .contacto .fila {
+    display: flex;
+  }
+  
+  .contacto .col {
+    padding: 10px;
+    position: relative;
+  }
+  
+  .contacto .col input,
+  .contacto .col textarea {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Fondo blanco para los campos de entrada */
+    font-size: 18px;
+    border-radius: 5px; /* Bordes redondeados para un look más suave */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para los campos */
+  }
+  
+  .contacto button {
+    cursor: pointer;
+    background-color: #007bff; /* Un color azul vibrante para el botón */
+    border: none; /* Sin borde para un diseño más limpio */
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #ffffff; /* Color blanco para el texto del botón */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    position: relative;
+    z-index: 10;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .contacto button:hover {
+    background-color: #0056b3; /* Azul más oscuro en hover */
+    transform: scale(1.05); /* Efecto de escala en hover para el botón */
+  }
+  
+  .contacto button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #66b2ff; /* Un azul claro para el overlay */
+    z-index: -1;
+    transition: width 1s;
+  }
+  
+  .contacto button:hover .overlay {
+    width: 100%;
+  }
+  

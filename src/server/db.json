@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "e723",
+      "name": "patrick",
+      "email": "patrick@123",
+      "password": "1234"
+    },
+    {
+      "id": "6df9",
+      "name": "1111",
+      "email": "111@111",
+      "password": "1111"
+    }
+  ],
+  "tareas": [
+    {
+      "id": "16db",
+      "task": "pepe pepe pepe ",
+      "prioridad": "high"
+    },
+    {
+      "id": "0d45",
+      "task": "hgjhkm,",
+      "prioridad": "medium"
+    }
+  ]
+}
